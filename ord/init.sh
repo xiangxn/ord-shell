@@ -10,15 +10,15 @@ outFile(){
     DIR=$(dirname "$PWD")
     touch $FILE
     cat>"${FILE}"<<EOF
-chain:mainnet
-bitcoin-data-dir:$DIR/btc/data
-bitcoin-rpc-url:http://127.0.0.1:18333
-bitcoin-rpc-username:btc
-bitcoin-rpc-password:btc2024
-data-dir:$DIR/ord/data
-index_cache_size:33709230080
-index-runes:true
-no-index-inscriptions:true
+chain: mainnet
+bitcoin_data_dir: $DIR/btc/data
+bitcoin_rpc_url: http://127.0.0.1:18333
+bitcoin_rpc_username: btc
+bitcoin_rpc_password: btc2024
+data_dir: $DIR/ord/data
+index_cache_size: 33709230080
+index_runes: true
+no_index_inscriptions: true
 EOF
 }
 
