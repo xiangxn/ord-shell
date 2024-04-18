@@ -1,2 +1,2 @@
 #! /bin/bash
-./ord-0.18.1/ord --config config index update
+./ord-0.18.2/ord --config config index update
