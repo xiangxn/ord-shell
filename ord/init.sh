@@ -18,8 +18,7 @@ bitcoin-rpc-password:btc2024
 data-dir:$DIR/ord/data
 index_cache_size:33709230080
 index-runes:true
-index-sats:true
-index-transactions:true
+no-index-inscriptions:true
 EOF
 }
 
