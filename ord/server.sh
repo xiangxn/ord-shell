@@ -1,2 +1,2 @@
 #! /bin/bash
-./ord-0.18.3/ord --config config server
+./ord-0.18.5/ord --config config server

@@ -23,6 +23,6 @@ EOF
 }
 
 initDIR && \
-wget https://github.com/ordinals/ord/releases/download/0.18.3/ord-0.18.3-x86_64-unknown-linux-gnu.tar.gz && \
-tar -zxf ord-0.18.3-x86_64-unknown-linux-gnu.tar.gz && \
+wget https://github.com/ordinals/ord/releases/download/0.18.5/ord-0.18.5-x86_64-unknown-linux-gnu.tar.gz && \
+tar -zxf ord-0.18.5-x86_64-unknown-linux-gnu.tar.gz && \
 outFile
